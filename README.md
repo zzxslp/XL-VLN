@@ -24,4 +24,4 @@ Data is formatted as follows:
 - `heading`: Agents initial heading in radians (elevation is always assumed to be zero).
 - `instructions`: Three unique natural language strings describing how to find the goal given the start pose.
 
-For the test set, only the first path_id (starting location) is included. A [test server](https://evalai.cloudcv.org/web/challenges/challenge-page/97/overview) is hosted by [Anderson et al.](https://arxiv.org/abs/1711.07280) for scoring uploaded trajectories.
+For the test set, only the first path_id (starting location) is included (a [test server](https://evalai.cloudcv.org/web/challenges/challenge-page/97/overview) is hosted by [Anderson et al.](https://arxiv.org/abs/1711.07280) for scoring uploaded trajectories).
