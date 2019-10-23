@@ -1,10 +1,10 @@
-# Cross-lingual Room-to-Room (XL-R2R) Navigation Task
+# Cross-lingual Vision-Language Navigation
 
 
-## Data
+## Cross-lingual Room-to-Room (XL-R2R) Dataset
 
-Data consists of train/val-seen/val-unseen/ splits for English and Chinese pairs, and test split for English instructions.
-There are two validation sets to better understand generalization performance between buildings that are in the training set (val-seen) and unseen buildings. The test set consists entirely of unseen buildings. 
+The XL-R2R dataset is built upon the [R2R](https://arxiv.org/abs/1711.07280) dataset and extends it with Chinese instructions. 
+XL-R2R preserve the same splits as in R2R and thus consists of `train`, `val-seen`, and `val-unseen` splits with both English and Chinese instructions, and `test` split with English instructions only.  
 
 Data is formatted as follows:
 ```
@@ -24,6 +24,4 @@ Data is formatted as follows:
 - `heading`: Agents initial heading in radians (elevation is always assumed to be zero).
 - `instructions`: Three unique natural language strings describing how to find the goal given the start pose.
 
-For the test set, only the first path_id (starting location) is included. There is a test server for scoring uploaded trajectories according to the metrics in the [paper](https://arxiv.org/abs/1711.07280).
-
-There are 7 json files. 4 for English instructions and 3 for Chinese instructions.
+For the test set, only the first path_id (starting location) is included. A [test server](https://evalai.cloudcv.org/web/challenges/challenge-page/97/overview) is hosted by [Anderson et al.](https://arxiv.org/abs/1711.07280) for scoring uploaded trajectories.
