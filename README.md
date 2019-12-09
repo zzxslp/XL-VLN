@@ -1,10 +1,6 @@
 # Cross-lingual Vision-Language Navigation
 
-We introduce a new dataset and propose a general learning framework for [Cross-Lingual Vision-Language Navigation](https://arxiv.org/abs/1910.11301). 
-First, we explore the possibility of building a cross-lingual agent when no training data of the target language is available. Under the zero-shot learning scenario, our model shows competitive results even compared to a model trained with all target language instructions. We then study and further improve the transferring ability of our model when given a certain amount of target language data. 
-Our dataset and methods demonstrate potentials of building scalable cross-lingual agents to serve speakers with different languages.
-
-Please read our paper for more details: https://arxiv.org/abs/1910.11301.
+We introduce a new dataset for Cross-Lingual Vision-Language Navigation. 
 
 ## Cross-lingual Room-to-Room (XL-R2R) Dataset
 
