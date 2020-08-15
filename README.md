@@ -1,8 +1,8 @@
-# Bi-lingual Vision-Language Navigation
+# Bilingual Vision-Language Navigation
 
 We introduce a new dataset for Bi-Lingual Vision-Language Navigation. 
 
-## Bi-lingual Room-to-Room (BL-R2R) Dataset
+## Bilingual Room-to-Room (BL-R2R) Dataset
 
 The BL-R2R dataset is built upon the [R2R](https://arxiv.org/abs/1711.07280) dataset and extends it with Chinese instructions. 
 BL-R2R preserves the same splits as in R2R and thus consists of `train`, `val-seen`, and `val-unseen` splits with both English and Chinese instructions, and `test` split with English instructions only.  
