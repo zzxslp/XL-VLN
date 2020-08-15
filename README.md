@@ -1,11 +1,11 @@
-# Cross-lingual Vision-Language Navigation
+# Bi-lingual Vision-Language Navigation
 
-We introduce a new dataset for Cross-Lingual Vision-Language Navigation. 
+We introduce a new dataset for Bi-Lingual Vision-Language Navigation. 
 
-## Cross-lingual Room-to-Room (XL-R2R) Dataset
+## Bi-lingual Room-to-Room (BL-R2R) Dataset
 
-The XL-R2R dataset is built upon the [R2R](https://arxiv.org/abs/1711.07280) dataset and extends it with Chinese instructions. 
-XL-R2R preserves the same splits as in R2R and thus consists of `train`, `val-seen`, and `val-unseen` splits with both English and Chinese instructions, and `test` split with English instructions only.  
+The BL-R2R dataset is built upon the [R2R](https://arxiv.org/abs/1711.07280) dataset and extends it with Chinese instructions. 
+BL-R2R preserves the same splits as in R2R and thus consists of `train`, `val-seen`, and `val-unseen` splits with both English and Chinese instructions, and `test` split with English instructions only.  
 
 Data is formatted as follows:
 ```
